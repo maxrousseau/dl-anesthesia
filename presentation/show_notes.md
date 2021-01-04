@@ -5,7 +5,7 @@ Deep Learning
 -------------
 
 
-*Statistics -> Machine Learning -> Deep learning*
+**Statistics -> Machine Learning -> Deep learning**
 
 
 As you all know, statistics allow scientist to draw inference from data.
@@ -25,10 +25,9 @@ in real world applications yet although this may change in the future.
 Supervised learning and deep learning will be the central topic of discussion
 of this talk as they have the most practical applications currently.
 
-SIDE NOTE: there is a third category which is reinforcement learning,
-which has had some success in games such as chess, Go and video games (atari,
-DoTa and Starcraft).
-
+	SIDE NOTE: there is a third category which is reinforcement learning,
+	which has had some success in games such as chess, Go and video games (atari,
+	DoTa and Starcraft).
 
 
 High level view of deep learning
@@ -72,40 +71,52 @@ Depending on what you are trying to achive the output may vary. In binary
 classification you will end up with an output of either 1 or 0 for a given
 input.
 
-The neuron:
-\[Y = wX+b\]
+The neuron: $Y = ReLU(wX+b)$
 
+- ReLU: an activation function
 - w: weight
 - b: bias
 - X: input (tensor)
 - Y: output (label)
 
-The "neuron" is the core building block of a neural networks. Deep neural
+The _neuron_ is the core building block of a neural networks. Deep neural
 networks will chain multiple neurons to transform and learn high level
 abstractions from complex data.
 
 Backpropagation
 ---------------
 
-_How does the network learn_
+**How does the network learn?**
+
+The main mechanism behind deep learning is called backpropagation. In
+supervised deep learning, it is how the network can improve its performance
+during the training loop. The backpropagation algorithm has a few components:
 
 - loss function
 - gradient descent
 - optimizer
-- batch
-- epochs
+
+
+### Terminology regarding training - batch and epoch
+
+The epoch paramter defines the number of iterations of the training loop. It
+would be inefficient to perform backpropagation on your whole dataset at once
+during each iterations of the training loop. This is why we use batches during
+which are subsets of your training data. Let's say you have 100 training
+samples, in this cases you could choose batches of 20. In that case, for each
+epoch you would perform backpropagation 5 times over 20 samples.
 
 
 Architectures
 -------------
 
-Beyond backpropagation and fully connected layers...
+Beyond backpropagation and fully connected layers.
 
 - Convolutions (images)
 - Recurrent networks, lstm, gru (text)
 - Transformers and attention mechanisms
 
-Where to look for new architectures.
+Where to look for new architectures --> papers!
 
 
 Practical
@@ -168,13 +179,17 @@ Potential Issues
 
 
 + Transfer learning
-+ Overfitting
-	> Data augmentation
++ Overfitting -> Data augmentation
 + Debugging -> check dimensions
 
-[Anderj Kaparthy's blog post]
+[Anderj Kaparthy's blog post]()
 
-`Set a clear goal and determine the data type you can use. Build a small
+
+Personal Tips
+-------------
+
+
+Set a clear goal and determine the data type you can use. Build a small
 dataset and begin experimenting. Tip: start small with the simplest form of the
 problem you wish to solve and as you gain experience and become more
-comfortable with deep learning`
+comfortable with deep learning.
