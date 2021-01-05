@@ -11,7 +11,7 @@ Deep Learning Crash Course for Anesthesia
 3. [X] lstm/gru on timeseries
 4. [ ] create python notebooks
 5. [X] make powerpoint presentation
-6. [ ] show notes (INCOMPLETE)
+6. [X] show notes (INCOMPLETE)
 
 
 Demonstration
@@ -26,6 +26,10 @@ Raw dataset: https://researchspace.auckland.ac.nz/handle/2292/10357
 
 TODO
 ----
+
+1. finish shownotes
+2. ipynb transfer
+3. experiments if time permits
 
 - try to fill NA values with median or other standard value
 - create dataset with all 52 input features
