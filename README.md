@@ -17,6 +17,7 @@ Deep Learning Crash Course for Anesthesia
 Demonstration
 -------------
 
+[Notebooks](./notebooks/)
 
 **Goal:** using a minute of data to predict if there will be a change in oxygen
 saturation in the next minute
@@ -27,12 +28,8 @@ Raw dataset: https://researchspace.auckland.ac.nz/handle/2292/10357
 TODO
 ----
 
-1. finish shownotes
-2. ipynb transfer
-3. experiments if time permits
 
 - try to fill NA values with median or other standard value
-- create dataset with all 52 input features
 - try 1D conv layers
 - try out different data augmentation techniques
 - pre-train rnn
