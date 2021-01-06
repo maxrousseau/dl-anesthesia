@@ -9,7 +9,7 @@ Deep Learning Crash Course for Anesthesia
 1. [X] create datasets
 2. [X] feed forward nn (max of ~65% accuracy)
 3. [X] lstm/gru on timeseries
-4. [ ] create python notebooks
+4. [X] create python notebooks
 5. [X] make powerpoint presentation
 6. [X] show notes (INCOMPLETE)
 
@@ -27,7 +27,6 @@ Raw dataset: https://researchspace.auckland.ac.nz/handle/2292/10357
 
 TODO
 ----
-
 
 - try to fill NA values with median or other standard value
 - try 1D conv layers
