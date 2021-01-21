@@ -3,7 +3,7 @@ Deep Learning Crash Course for Anesthesia
 
 
 [Show notes](./presentation/show_notes.md) \\
-[Slides](./presentation/deep_learning_crash_course.pptx)
+[Slides](./presentation/deep_learning_crash_course.pdf)
 
 
 1. [X] create datasets
