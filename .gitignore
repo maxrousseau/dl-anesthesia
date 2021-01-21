@@ -1,3 +1,6 @@
-db/*
+db/mh_data
+db/case01
+db/asac_data
+db/*.xml
 *.lock
 *.swp
